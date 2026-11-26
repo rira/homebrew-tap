@@ -1,30 +1,30 @@
 class Grein < Formula
   desc "Terminal workspace for branching AI sessions, git worktrees, and shells"
   homepage "https://github.com/rira/grein"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rira/grein/releases/download/v0.1.2/grein-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "6b53a6d9c82941e17dd8e3b0eb9f507af0370574033a2fb61d7b572d1bfc2f6a"
+      url "https://github.com/rira/grein/releases/download/v0.1.3/grein-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "2980e0c41581b8f3c34b901e39d0dcc020adad7c4e120f2e0e2203ee68813735"
     end
 
     on_intel do
-      url "https://github.com/rira/grein/releases/download/v0.1.2/grein-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "64c6cd0f58d667b8c68028107a591aa12f850e931ae9bbd94dc4ca40e4a912e5"
+      url "https://github.com/rira/grein/releases/download/v0.1.3/grein-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "0b0d4c4af60eb7283cd526373e490ef240bffb12a2ec7ab49517734def60fbea"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rira/grein/releases/download/v0.1.2/grein-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6ba1b96f95eaa691c9156cdd0ccc8afcceafa9a19df998e016d7ec13f223162f"
+      url "https://github.com/rira/grein/releases/download/v0.1.3/grein-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "636ff18279f5075f0e5074e3244560387c0c9ebb42accc92dfed9fab441d297e"
     end
 
     on_intel do
-      url "https://github.com/rira/grein/releases/download/v0.1.2/grein-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "363212bace1662fe856355323755b7c86c72c7a0a6796fb12dc96291e8ae988c"
+      url "https://github.com/rira/grein/releases/download/v0.1.3/grein-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5566364d797684c3d13fa7df7b3e50c26fd5d8f3c25fedc3f769a22bccac6c58"
     end
   end
 
